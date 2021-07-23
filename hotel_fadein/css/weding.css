@@ -1,0 +1,74 @@
+.jumbotron{
+	width: auto;
+	min-height: 500px;
+	background-image: url('../img/wd1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding:150px 0;
+	color: #000000;
+	
+}
+
+.jumbotron img{
+	width: 200px;
+	border:5px solid #eaeaea;
+	margin-top: 100px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1,span{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	font-family: "Bungee", cursive;
+	color: #fff;
+}
+
+/*=========== breadcrumb_area css =============*/
+.breadcrumb_area {
+  position: relative;
+  padding: 172px 0px 84px;
+  background: #04091e;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.breadcrumb_area .bg-parallax {
+  background: url("../image/about_banner.jpg") no-repeat scroll center 0/cover;
+  opacity: 0.50;
+  z-index: -1;
+}
+
+.page-cover-tittle {
+  display: block;
+  font-size: 36px;
+  line-height: 45px;
+  color: #fff;
+}
+
+.breadcrumb {
+  text-align: center;
+  background: transparent;
+  padding: 0px;
+  display: inline-block;
+}
+
+.breadcrumb li {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+}
+
+.breadcrumb li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.breadcrumb li + li:before {
+  
+  font-family: 'Linearicons-Free';
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: middle;
+  margin: 0px 10px 0px 7px;
+}
+
+/*============= End banner_area css =============*/
